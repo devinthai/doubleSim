@@ -78,6 +78,7 @@ def round1():
     
     #generate the four facedown cards
     down = []
+    #set method to 0 if you want to use the updated casino rules, and 1 if you want to use the curent rules
     method = 1
     if(method==0):
         #generate 3 random cards
